@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Shop
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/shop/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
@@ -75,6 +75,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/shop/master/_listings/etsy/shopsshop-idreceipts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/shop/master/_listings/etsy/shopsshop-idreceipts-get-openapi.md
+- name: Etsy - Get Shops Shop Transactions
+  x-api-slug: shopsshop-idtransactions-get
+  description: Retrieves a set of Transaction objects associated to a Shop.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shop/master/_listings/etsy/shopsshop-idtransactions-get-openapi.md
 - name: Etsy - Get Shops Shop Sections
   x-api-slug: shopsshop-idsections-get
   description: Retrieves a set of ShopSection objects associated to a Shop.
